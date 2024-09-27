@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f1f5f9;
+}
+
+.lista-de-compras-container {
+  padding: 24px;
+  max-width: 850px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.lista-de-compras-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.titulo {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #2d3748;
+  text-align: center;
+  background: linear-gradient(to right, #ff6f61, #ff9068);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.item-card {
+  margin-bottom: 20px;
+  position: relative;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.item-card:hover {
+  border-color: #ff6f61;
+  box-shadow: 0px 8px 20px rgba(255, 111, 97, 0.3);
+}
+
+.avatar-icon {
+  background-color: #ff6f61;
+  color: white;
+}
+
+.remover-item-btn {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  color: #ff6f61;
+  background-color: #fff;
+  border: 2px solid #ff6f61;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.remover-item-btn:hover {
+  background-color: #ff6f61;
+  color: white;
+}
+
+.valor-total-item {
+  margin-top: 8px;
+  font-weight: 600;
+  color: #ff6f61;
+}
+
+.avaliacao {
+  margin-top: 8px;
+}
+
+.valor-total-compra {
+  margin-top: 32px;
+  text-align: center;
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.quantidade-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.quantidade-input {
+  width: 50px;
+  text-align: center;
+  background-color: #f7fafc;
+  border-radius: 8px;
+}
+
+.icon-button {
+  background-color: #ff6f61;
+  color: white;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.icon-button:hover {
+  background-color: #ff9068;
+}
+
+.quantidade-input {
+  border: 1px solid #e2e8f0;
+  color: #2d3748;
+  font-weight: bold;
+}
+
+.valor-unitario {
+  color: #4a5568;
+  font-weight: 500;
+}
